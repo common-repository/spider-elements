@@ -1,0 +1,88 @@
+svg.radial-progress {
+  height: auto;
+  // max-width: 100px;
+  padding: 0.5em;
+  transform: rotate(-90deg);
+}
+
+svg.radial-progress circle {
+  fill: transparent;
+  stroke-dashoffset: 219.91148575129;
+  stroke-width: 6px;
+}
+
+svg.radial-progress circle.complete {
+  stroke-dasharray: 219.91148575129;
+}
+
+svg.radial-progress text {
+  font-size: 16px;
+  font-weight: 500;
+  text-anchor: middle;
+}
+
+svg {
+  .complete {
+    stroke: #D31E1E;
+    stroke-linecap: round;
+  }
+}
+
+svg {
+  .incomplete {
+    stroke: #D5A6A66E;
+  }
+}
+
+.skill_item_two {
+  .radial-progress {
+    background: linear-gradient(rgb(79, 248, 186) 0%, rgb(0, 204, 255) 100%);
+    border-radius: 50%;
+    circle {
+      stroke-width: 4px;
+      &.incomplete {
+        stroke: rgb(255 255 255 / 50%);
+      }
+      &.complete {
+        stroke: #fff;
+      }
+    }
+  }
+  .skill_pr {
+    position: relative;
+    .counter2-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 28px;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      transform: translateY(-50%);
+    }
+  }
+}
+ 
+
+.counters-container {
+  text-align: center;
+  .skill_item {
+    position: relative;
+    .counter-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      font-size: 18px;
+      top: 50%;
+      width: 100%;
+      position: absolute;
+      transform: translateY(-50%);
+    }
+  }
+  h6 {
+    margin: 0;
+  }
+}

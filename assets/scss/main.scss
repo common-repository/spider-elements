@@ -1,0 +1,86 @@
+/*----------------------------------------------------
+@File: Default Styles
+
+This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+---------------------------------------------------- */
+
+/*=====================================================================
+@Template Name: Spider Elements
+
+@Default Styles
+Table of Content:
+01/ Variables
+02/ Common
+03/ Accordion
+04/ Tabs
+05/ Testimonial
+06/ Video
+07/ Alerts_box
+08/ Pricing_Table
+09/ Pricing_Table_Switcher
+10/ Animation
+11/ List_Item
+12/ Cheat_sheet
+13/ Team
+14/Integration
+15/ After_before
+
+
+=====================================================================*/
+@import "Mixins";
+
+@import "prefix";
+
+@import "Variables";
+
+@import "framework";
+
+@import "Common";
+
+@import "Accordion";
+
+@import "Tabs";
+
+@import "Testimonial";
+
+@import "Video";
+
+@import "Alerts_box";
+
+@import "Pricing_Table";
+
+@import "Pricing_Table_Switcher";
+
+@import "Animation";
+
+@import "List_Item";
+
+@import "Cheat_sheet";
+
+@import "Team";
+
+@import "Integration";
+
+@import "Blog_grid";
+
+@import "Before_after";
+
+@import "Skill_Showcase";
+
+@import "Timeline";
+
+@import "Buttons";
+
+@import "Animated_Headline";
+
+@import "video_popup";
+
+@import "Counter";
+
+@import "Instagram";
+
+@import "Fullscreen_Slider";
+
+@import "Icon_box";
